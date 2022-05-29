@@ -3,7 +3,7 @@ import pyqrcode
 import png
 from pyqrcode import QRCode
 
-long_url = input("Enter the URL to shorten: 
+long_url = input("Enter the URL to shorten:")
 need = input("Do you require QR code for the shortened link:'Y' / 'N'")
 
 # TinyURL shortener service
